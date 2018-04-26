@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9227AACA20902BF500D17EC1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227AAC920902BF500D17EC1 /* CategoryViewController.swift */; };
+		9227AACC20902C7300D17EC1 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227AACB20902C7300D17EC1 /* CategoryTableViewCell.swift */; };
+		9227AACE20902F8300D17EC1 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227AACD20902F8300D17EC1 /* UpdateViewController.swift */; };
+		9227AAD02090300900D17EC1 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227AACF2090300900D17EC1 /* HistoryViewController.swift */; };
+		9227AAD2209036B700D17EC1 /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227AAD1209036B700D17EC1 /* ShoppingTableViewCell.swift */; };
+		9227AAD620903A1F00D17EC1 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227AAD520903A1F00D17EC1 /* ShoppingViewController.swift */; };
+		92E4469A20914991001A03EF /* responder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4469920914991001A03EF /* responder.swift */; };
+		92E4469C2091537E001A03EF /* HistoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4469B2091537E001A03EF /* HistoryViewCell.swift */; };
 		92FAA20520900A420014AAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAA20420900A420014AAD9 /* AppDelegate.swift */; };
-		92FAA20720900A420014AAD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAA20620900A420014AAD9 /* ViewController.swift */; };
 		92FAA20A20900A420014AAD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FAA20820900A420014AAD9 /* Main.storyboard */; };
 		92FAA20D20900A420014AAD9 /* PCShoppingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92FAA20B20900A420014AAD9 /* PCShoppingApp.xcdatamodeld */; };
 		92FAA20F20900A430014AAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FAA20E20900A430014AAD9 /* Assets.xcassets */; };
 		92FAA21220900A430014AAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FAA21020900A430014AAD9 /* LaunchScreen.storyboard */; };
+		92FAA21A20901C890014AAD9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAA21920901C890014AAD9 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9227AAC920902BF500D17EC1 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		9227AACB20902C7300D17EC1 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		9227AACD20902F8300D17EC1 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		9227AACF2090300900D17EC1 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9227AAD1209036B700D17EC1 /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
+		9227AAD520903A1F00D17EC1 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		92E4469920914991001A03EF /* responder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = responder.swift; sourceTree = "<group>"; };
+		92E4469B2091537E001A03EF /* HistoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewCell.swift; sourceTree = "<group>"; };
 		92FAA20120900A420014AAD9 /* PCShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FAA20420900A420014AAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92FAA20620900A420014AAD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92FAA20920900A420014AAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92FAA20C20900A420014AAD9 /* PCShoppingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PCShoppingApp.xcdatamodel; sourceTree = "<group>"; };
 		92FAA20E20900A430014AAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FAA21120900A430014AAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92FAA21320900A430014AAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FAA21920901C890014AAD9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +73,20 @@
 			isa = PBXGroup;
 			children = (
 				92FAA20420900A420014AAD9 /* AppDelegate.swift */,
-				92FAA20620900A420014AAD9 /* ViewController.swift */,
 				92FAA20820900A420014AAD9 /* Main.storyboard */,
+				9227AAD1209036B700D17EC1 /* ShoppingTableViewCell.swift */,
+				92E4469920914991001A03EF /* responder.swift */,
+				9227AACF2090300900D17EC1 /* HistoryViewController.swift */,
+				92E4469B2091537E001A03EF /* HistoryViewCell.swift */,
+				9227AACD20902F8300D17EC1 /* UpdateViewController.swift */,
+				9227AACB20902C7300D17EC1 /* CategoryTableViewCell.swift */,
+				9227AAC920902BF500D17EC1 /* CategoryViewController.swift */,
+				92FAA21920901C890014AAD9 /* CollectionViewCell.swift */,
 				92FAA20E20900A430014AAD9 /* Assets.xcassets */,
 				92FAA21020900A430014AAD9 /* LaunchScreen.storyboard */,
 				92FAA21320900A430014AAD9 /* Info.plist */,
 				92FAA20B20900A420014AAD9 /* PCShoppingApp.xcdatamodeld */,
+				9227AAD520903A1F00D17EC1 /* ShoppingViewController.swift */,
 			);
 			path = PCShoppingApp;
 			sourceTree = "<group>";
@@ -138,9 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92FAA20720900A420014AAD9 /* ViewController.swift in Sources */,
+				92E4469A20914991001A03EF /* responder.swift in Sources */,
+				9227AACA20902BF500D17EC1 /* CategoryViewController.swift in Sources */,
+				9227AAD620903A1F00D17EC1 /* ShoppingViewController.swift in Sources */,
 				92FAA20D20900A420014AAD9 /* PCShoppingApp.xcdatamodeld in Sources */,
+				92FAA21A20901C890014AAD9 /* CollectionViewCell.swift in Sources */,
+				9227AAD2209036B700D17EC1 /* ShoppingTableViewCell.swift in Sources */,
 				92FAA20520900A420014AAD9 /* AppDelegate.swift in Sources */,
+				9227AACE20902F8300D17EC1 /* UpdateViewController.swift in Sources */,
+				9227AACC20902C7300D17EC1 /* CategoryTableViewCell.swift in Sources */,
+				92E4469C2091537E001A03EF /* HistoryViewCell.swift in Sources */,
+				9227AAD02090300900D17EC1 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

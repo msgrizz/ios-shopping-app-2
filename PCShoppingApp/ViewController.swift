@@ -8,10 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
 
+    @IBOutlet weak var currentPriceLabel: UILabel!
+    
+    
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
